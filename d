@@ -4,7 +4,6 @@ game:service('Players').LocalPlayer.Idled:connect(function()
 VirtualUser:CaptureController()
 VirtualUser:ClickButton2(Vector2.new())
 end)
-sleep(100)
 local Image = Drawing.new("Image")
 local Full = workspace.CurrentCamera.ViewportSize
 Image.Size = Vector2.new(Full.X, Full.Y)
