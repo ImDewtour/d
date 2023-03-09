@@ -1,4 +1,4 @@
-wait(10)
+wait(30)
 local VirtualUser=game:service'VirtualUser'
 game:service('Players').LocalPlayer.Idled:connect(function()
 VirtualUser:CaptureController()
